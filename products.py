@@ -37,6 +37,7 @@ def write_file(filename, products):
 
 
 def main():
+    products = []
     filename = 'products.csv'
     if os.path.isfile(filename): #檢查檔案在不在同資料夾相對路徑
         print('yeah!找到檔案!')
