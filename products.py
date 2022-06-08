@@ -48,4 +48,5 @@ def main():
     print_productions(products)
     write_file(filename, products)
 
-main() #這邊如果不執行的話 那這個py檔什麼事都不做
+if __name__ == '__main__':
+    main() #這邊如果不執行的話 那這個py檔什麼事都不做
